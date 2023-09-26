@@ -1,0 +1,104 @@
+
+
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+.pagina{
+    width: 100vw;
+    height: 100vh;
+
+
+
+
+
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+   
+    background-size: cover;
+    
+}
+
+.quadrado{
+    
+    margin-right: 10px;
+    background-color: #5170AA;
+    width: 50vw;
+    height: 90vh;
+    opacity: 80%;
+    border-radius: 15px;
+
+
+
+}
+
+.vazio{
+
+    width: 40vw;
+    height: 95vh; 
+
+}
+
+.texto-crie{
+    margin-top: 15px;
+
+
+    color: #000;
+text-align: center;
+
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 62.5% */
+}
+
+
+
+.barra{
+    
+    margin-top: 25px;
+    width: 30vw;
+    height: 45px;
+    border-radius: 15px;
+    border-color: white ;
+}
+ 
+.botao-confir{
+    margin-top: 25px;
+    width: 15vw;
+    height: 45px;
+    border-radius: 15px;
+    border-color: white ;
+}
+
+#placeholder-text::placeholder {
+    color: black;
+    font-size: small;
+}
+
+.texto-esquece{
+    font-size: 20px;
+}
+
+.texto-redefina{
+    color: blue;
+    font-size: 20px;  
+    
+}
+
+.separa{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+   
+
+}
+}
